@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <ul>
+        {% for agenda in agendas %}
+            <a href="{% url 'update_agenda' agenda.id %}">
+                <li> {{ agenda.data }} - {{ agenda.descricao }} </li>
+            </a>
+        {% endfor %}
+    </ul>
+
+    <a class="btn btn-primary" href="{% url 'create_agenda' %}">Novo</a>
+{% endblock %}
