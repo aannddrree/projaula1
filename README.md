@@ -9,3 +9,4 @@
 <h4> <li>Criar app: python manage.py startapp agenda</li> </h4>
 <h4> <li>Atualizar models (banco de dados): python manage.py makemigrations</li> </h4>
 <h4> <li>Atualizar banco de dados: python manage.py migrate</li> </h4>
+<h4> <li>Executar Aplicação: python manage.py runserver</li> </h4>
