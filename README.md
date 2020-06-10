@@ -10,3 +10,7 @@
 <h4> <li>Atualizar models (banco de dados): python manage.py makemigrations</li> </h4>
 <h4> <li>Atualizar banco de dados: python manage.py migrate</li> </h4>
 <h4> <li>Executar Aplicação: python manage.py runserver</li> </h4>
+
+<h1> Criar Super Usuário </h1>
+
+<h4> <li>Criar: python manage.py createsuperuser </li> </h4>
