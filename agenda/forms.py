@@ -5,4 +5,4 @@ from agenda.models import Agenda
 class AgendaForm(forms.ModelForm):
     class Meta:
         model = Agenda
-        fields = ['descricao', 'data']
+        fields = ['descricao', 'data', 'tipo']
