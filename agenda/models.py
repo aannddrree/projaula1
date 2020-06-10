@@ -11,7 +11,7 @@ class Tipo(models.Model):
 class Agenda(models.Model):
     descricao = models.CharField(max_length=100)
     data = models.CharField(max_length=100)
-    tipo = models.OneToOneField(Tipo, on_delete=models.SET_NULL, null=True)
+    tipo = models.ForeignKey(Tipo, on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         return self.descricao
